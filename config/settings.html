@@ -1,0 +1,77 @@
+<fieldset>
+  <legend>หน้าแรก</legend>
+  <table>
+    <tr>
+      <th><label for="welcome_message">เลือกหน้าสำหรับข้อความต้อนรับ</label></th>
+      <td>
+        <select class="page" name="welcome_message" id="welcome_message" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>รูปภาพ</legend>
+  <table>
+    <tr>
+      <th><label for="logo_image_uri">โลโก้ URI (300x75 px.)</label></th>
+      <td>
+        <input class="image_uri" type="text" id="logo_image_uri" name="logo_image_uri" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>สังคมออนไลน์</legend>
+  <table>
+    <tr>
+      <th><label for="facebook_uri">Facebook URI</label></th>
+      <td>
+        <input class="uri" type="text" id="facebook_uri" name="facebook_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_enabled">Facebook Like Box</label></th>
+      <td>
+        <select name="like_box_enabled" id="like_box_enabled">
+          <option value="">ปิดใช้งาน</option>
+          <option value="1">เปิดใช้งาน</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_height">ความยาว Facebook Like Box</label></th>
+      <td>
+        <input class="text" type="text" id="like_box_height" name="like_box_height" value="556" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="like_box_enabled">ออพชัน Facebook Like Box</label></th>
+      <td>
+        <input type="checkbox" name="like_box_show_faces" id="like_box_show_faces" value="1" />
+        <label for="like_box_show_faces">Show Faces</label>
+        <input type="checkbox" name="like_box_show_stream" id="like_box_show_stream" value="1" />
+        <label for="like_box_show_stream">Show Stream</label>
+        <input type="checkbox" name="like_box_show_header" id="like_box_show_header" value="1" />
+        <label for="like_box_show_header">Show Header</label>
+      </td>
+    </tr>
+    <tr>
+      <th><label for="twitter_uri">Twitter URI</label></th>
+      <td>
+        <input class="uri" type="text" id="twitter_uri" name="twitter_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="youtube_uri">Youtube URI</label></th>
+      <td>
+        <input class="uri" type="text" id="youtube_uri" name="youtube_uri" />
+      </td>
+    </tr>
+    <tr>
+      <th><label for="googleplus_uri">Google Plus URI</label></th>
+      <td>
+        <input class="uri" type="text" id="googleplus_uri" name="googleplus_uri" />
+      </td>
+    </tr>
+  </table>
+</fieldset>
